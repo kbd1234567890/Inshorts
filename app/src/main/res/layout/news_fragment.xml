@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/photoid"
+        android:layout_height="225dp"
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/headlineId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/headline"
+        android:layout_margin="10dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/darkColor"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/detailId"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/detailNews"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textColor="@color/gray"
+        android:lineSpacingExtra="8dp"/>
+
+    <TextView
+        android:id="@+id/linkTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/chocolate"
+        android:text="Kanifanath Baban Dhobale"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:layout_marginTop="30dp"
+        android:lineSpacingExtra="8dp"/>
+</LinearLayout>

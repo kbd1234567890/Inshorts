@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/photoid"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="@color/gray"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/headlineId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="monospace"
+        android:text="@string/headline"
+        android:textColor="@color/darkColor"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/detailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:lineSpacingExtra="8dp"
+        android:padding="5dp"
+        android:text="@string/detailNews"
+        android:textColor="@color/gray" />
+
+</ConstraintLayout>
